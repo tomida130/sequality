@@ -10,7 +10,10 @@ public class AppTest {
   @Test
   public void testAppReternHelloWorld() {
     App classUnderTest = new App();
-    assertEquals("Hello World", classUnderTest.getGreeting());
+    assertEquals("Hello World!", classUnderTest.getGreeting());
+    assertEquals("Hello World!", classUnderTest.getGreeting2());
+    assertEquals("Hello World!", classUnderTest.getGreeting3());
+    assertEquals("Hello World!", classUnderTest.getGreeting4());
     /* “Hello World!”->“Hello World”に変更 */
   }
 }
